@@ -10,7 +10,7 @@ const Router = () => {
       <Switch>
         <Route exact path="/home" component={Home} />
         <Route exact path="/login" component={Login} />
-        <Redirect to="/home" />
+        <Redirect to="/login" />
       </Switch>
     </BrowserRouter>
   );
