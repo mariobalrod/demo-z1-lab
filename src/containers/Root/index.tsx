@@ -1,10 +1,6 @@
 import React from 'react';
 import Router from '../Router';
 
-const Root = () => (
-  <div>
-    <Router />
-  </div>
-);
+const Root = () => <Router />;
 
 export default Root;
