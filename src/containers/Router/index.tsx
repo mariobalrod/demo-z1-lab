@@ -8,12 +8,8 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/home">
-          <Home />
-        </Route>
-        <Route path="/login">
-          <Login />
-        </Route>
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/login" component={Login} />
       </Switch>
     </BrowserRouter>
   );

@@ -24,8 +24,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint --fix src/**/*.{js,jsx,ts,tsx}",
     "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "storybook": "build-storybook -c .storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
