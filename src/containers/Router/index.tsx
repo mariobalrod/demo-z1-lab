@@ -9,12 +9,10 @@ const Router = () => {
     <BrowserRouter>
       <Switch>
         <Route path="/home">
-          {' '}
-          <Home />{' '}
+          <Home />
         </Route>
         <Route path="/login">
-          {' '}
-          <Login />{' '}
+          <Login />
         </Route>
       </Switch>
     </BrowserRouter>
