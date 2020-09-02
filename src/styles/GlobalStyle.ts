@@ -6,17 +6,12 @@ const GlobalStyle = createGlobalStyle`
   ${reset};
   html {
     font-size: 100%; 
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter';
   }
   body {
     background-color: ${({ theme }) => theme.colors.white};
-    color: ${({ theme }) => theme.colors.bluewood};
+    color: ${({ theme }) => theme.colors.black};
     box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    font-feature-settings: "liga","kern";
-    font-variant-numeric: proportional-nums;
   }
   * {
     box-sizing: border-box;
